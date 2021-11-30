@@ -99,7 +99,8 @@ function pushNewProduct() {
         hoverQuantity.innerText = 'Quantity:'
     }
     
-    
+let trolleyList = document.querySelector('#list')
+let total = document.querySelector('#total')    
 
 let suma = 0
 let trolley = []
@@ -115,6 +116,10 @@ function buscando(e) {
         }
     }
 
+    total.innerText = `Total: £${suma}`
+    let item = document.createElement('p')
+    item.innerText = trolley[trolley.length - 1]
+    trolleyList.appendChild(item)
     console.log(suma)
     console.log(trolley)
 }
