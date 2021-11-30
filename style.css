@@ -5,7 +5,8 @@ body {
 }
 
 .brand {
-    font-size: 28px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
     display: flex;
     align-items: center;
     width: 20%;
@@ -30,6 +31,7 @@ body {
 }
 
 .container {
+    z-index: 0;
     min-height: 83%;
     display: flex;
     justify-content: center;
@@ -88,13 +90,12 @@ body {
     padding: 20px 20px 20px 20px;
 }
 
-.div-add-product {
-    
+.div-add-product { 
     opacity: 0;
-
 }
 
 .div-add-product-show {
+    z-index: 2;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     opacity: 1;
     height: 400px;
@@ -108,3 +109,13 @@ body {
     justify-content: space-around;
 }
 
+.new-product {
+    background-color:rgb(133, 195, 175);
+    border: black 2px solid;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    margin: 12px;
+}

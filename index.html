@@ -16,21 +16,20 @@
         </div>
     </div>
 
-
-
     <div class='container'>
+
         <div id='test' class='div-add-product'>
             <h1>Add New Product:</h2>
-            <input type="text" placeholder="Product">
-            <select name="type" id="drink">
-                <option value="Draught">Draught</option>
+            <input id="product-name" type="text" placeholder="Product">
+            <select id='product-type' name="type" id="drink">
+                <option value="Draught">Draught Beer</option>
                 <option value="Spirits">Spirits</option>
                 <option value="Snacks">Snacks</option>
-                <option value="Soft">Soft</option>
+                <option value="Soft">Soft Drinks</option>
               </select>
-            <input type="text" placeholder="Price">
-            <input type="text" placeholder="Quantity">
-            <button>Add Product</button>
+            <input id="product-price" type="text" placeholder="Price">
+            <input id="product-quantity" type="text" placeholder="Quantity">
+            <button id='push'>Add Product</button>
         </div>
     </div>
 
@@ -43,10 +42,3 @@
     <script src="main.js"></script>
 </body>
 </html>
-
-<select name="Type" id="options">
-    <option value="Beer">Beer</option>
-    <option value="Spirits">Spirits</option>
-    <option value="Soft">Soft</option>
-    <option value="Snack">Snack</option>
-  </select>
