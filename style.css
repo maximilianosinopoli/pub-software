@@ -1,0 +1,100 @@
+
+body {
+    height: 100vh;
+    margin: auto 0;
+}
+
+.brand {
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: center;
+}
+
+.nav-bar {
+    height: 10vh;
+    width: 100%;
+    background-color: lightgreen;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between
+}
+
+.buttons {
+    background-color:lightgreen;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    min-height: 83%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer {
+    height: 7vh;
+    width: 100%;
+    background-color: lightgreen;
+}
+
+.cuadrado-beer {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color:greenyellow;
+    border-radius: 40px;
+    border: 2px black solid;
+    padding: 20px 20px 20px 20px;
+}
+
+.cuadrado-snack{
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color:firebrick;
+    border-radius: 40px;
+    border: 2px black solid;
+    padding: 20px 20px 20px 20px;
+}
+
+.cuadrado-soft {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color:darkturquoise;
+    border-radius: 40px;
+    border: 2px black solid;
+    padding: 20px 20px 20px 20px;
+}
+
+.cuadrado-spirit {
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    background-color: darkseagreen;
+    border-radius: 40px;
+    border: 2px black solid;
+    padding: 20px 20px 20px 20px;
+}
+
+#probando {
+    display: none;
+}
+
+.add-show {
+    height: 400px;
+    width: 400px;
+    background-color: lightcoral;
+    transition: ease-in 0.3s;
+}
