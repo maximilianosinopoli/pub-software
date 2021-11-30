@@ -11,11 +11,16 @@
 
     <div class="nav-bar">
         <div class="brand">School of Code</div>
+        <div class="details">
+           <p id='hover-name'>Produc:</p>
+           <p id='hover-price'>Price:</p>
+           <p id='hover-quantity'>Quantity:</p>
+        </div>
         <div class="buttons">
             <button id="add-new-product">Add new Product</button>
         </div>
     </div>
-
+    
     <div class='container'>
 
         <div id='test' class='div-add-product'>
@@ -27,8 +32,8 @@
                 <option value="Snacks">Snacks</option>
                 <option value="Soft">Soft Drinks</option>
               </select>
-            <input id="product-price" type="text" placeholder="Price">
-            <input id="product-quantity" type="text" placeholder="Quantity">
+            <input id="product-price" type="number" placeholder="Price">
+            <input id="product-quantity" type="number" placeholder="Quantity">
             <button id='push'>Add Product</button>
         </div>
     </div>
