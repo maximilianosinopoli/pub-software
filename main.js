@@ -74,6 +74,8 @@ function pushNewProduct() {
     container.appendChild(newProduct)
     newProduct.appendChild(title)
     divProduct.classList.remove('div-add-product-show')
+    console.log(productPrice.value)
+
     products.push({
         name: productName.value,
         price: parseInt(productPrice.value),
